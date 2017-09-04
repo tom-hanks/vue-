@@ -8,7 +8,7 @@
 
 <script>
 import axios from 'axios'
-
+import Bus from '../router/bus.js';
 export default {
   name: 'hello',
   data () {

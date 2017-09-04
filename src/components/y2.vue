@@ -8,14 +8,18 @@
 
 <script>
 import axios from 'axios'
-
+import Bus from '../router/bus.js';
 export default {
   name: 'hello',
   data () {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  methods:{
+    
   }
+
   }
 </script>
 

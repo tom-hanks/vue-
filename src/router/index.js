@@ -12,13 +12,13 @@ export default new router({
   	  // 有几个页面就要配几个路由  * 代表 不管输入什么乱七八糟的地址 都指向默认的第一页 y1
 	 {
 	  	path: '*',
-	  		redirect:'/y2'
+	  		redirect:'/y1'
 	 },
     {
       path: '/y1',
       name: 'y1',
       component: y1,
-     
+
     },
     {
     	path:'/y2',
